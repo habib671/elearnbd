@@ -43,12 +43,9 @@
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#courses-section" class="nav-link">Courses</a></li>
+                <li><a href="#features-section" class="nav-link">Features</a></li>
                 <li><a href="#programs-section" class="nav-link">Programs</a></li>
-                <li><a href="#teachers-section" class="nav-link">Teachers</a></li><br>
-                <li><a href="loggedin/all_courses.php" class="nav-link">All Courses</a></li>
-                <li><a href="loggedin/blog" class="nav-link">Blogs</a></li>
-                <li><a href="loggedin/resource" class="nav-link">Resourses</a></li>
-                <li><a href="loggedin/quiz" class="nav-link">Quizzes</a></li>
+                <li><a href="#teachers-section" class="nav-link">Team</a></li>
               </ul>
             </nav>
           </div>
@@ -173,7 +170,6 @@
                   </div>
               </div>
             </div>
-            <!--end-->
           </div>
           </div>
           </div>
@@ -310,7 +306,19 @@
       </div>
     </div>
 
-
+    <div class="site-section" id="features-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-12 text-center"  data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">Features</h2>
+            <a href="loggedin/all_courses.php" class="btn btn-outline-primary btn-lg m-3">All Courses</a>
+            <a href="loggedin/blog" class="btn btn-outline-primary btn-lg m-3">Blogs</a>
+            <a href="loggedin/resource" class="btn btn-outline-primary btn-lg m-3">Resourses</a>
+            <a href="loggedin/quiz" class="btn btn-outline-primary btn-lg m-3">Quizes</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="site-section" id="programs-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
@@ -527,7 +535,7 @@ Currently, I’m working as a full-time Lecturer in the Department of Computer S
 
           </div>
           <div class="col-lg-7 align-self-end"  data-aos="fade-left" data-aos-delay="200">
-            <img src="images/person_transparent.png" alt="Image" class="img-fluid">
+            <img src="https://github.com/Nozrof/Web-portfolio/blob/main/img/image.png?raw=true" alt="Image" class="img-fluid">
           </div>
         </div>
       </div>
@@ -653,8 +661,9 @@ Currently, I’m working as a full-time Lecturer in the Department of Computer S
             <ul class="list-unstyled footer-links">
               <li><a href="#home-section" class="nav-link">Home</a></li>
               <li><a href="#courses-section" class="nav-link">Courses</a></li>
+              <li><a href="#features-section" class="nav-link">Features</a></li>
               <li><a href="#programs-section" class="nav-link">Programs</a></li>
-              <li><a href="#teachers-section" class="nav-link">Teachers</a></li>
+              <li><a href="#teachers-section" class="nav-link">Team</a></li>
             </ul>
           </div>
 
@@ -675,9 +684,9 @@ Currently, I’m working as a full-time Lecturer in the Department of Computer S
           <div class="col-md-12">
             <div class="border-top pt-5">
             <p>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+       
         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+       
       </p>
             </div>
           </div>
