@@ -13,16 +13,16 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
 </head>
 
  <body>
-   <div class="topnav d-flex justify-content-center" id="myTopnav">
+   <!-- <div class="topnav d-flex justify-content-center" id="myTopnav">
    <a href="../loggedin.php" class="active">Home</a>
        <?php
-       if (isset($_SESSION['userId'])){
-         echo '<a href="profile.php" name="profile">Profile</a>
-               <a href="../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-       }
+      //  if (isset($_SESSION['userId'])){
+      //    echo '<a href="profile.php" name="profile">Profile</a>
+      //          <a href="../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
+      //  }
         ?>
       </div>
- </header>
+ </header> -->
 
  <nav aria-label="breadcrumb ">
   <ol class="breadcrumb d-flex justify-content-center" style="background:linear-gradient(to right,rgba(100,150,150, 1),rgba(150, 150, 150, 1))">
@@ -79,8 +79,8 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
         <p class="card-text details" >Language : Bangla</p>
         <p class="card-text details" >Tutor : Anisul Islam </p>
       </div>
-      <a href="programming/c-programming/description_lund.php" class="btn btn-primary" target="_blank">View Description !</a><br>
-      <a href="programming/c-programming/anisul_lund.php" class="btn btn-primary">View Course !</a>
+      <a href="computer_science/programming/c-programming/description_lund.php" class="btn btn-primary" target="_blank">View Description !</a><br>
+      <a href="computer_science/programming/c-programming/anisul_lund.php" class="btn btn-primary">View Course !</a>
   </div>
   
 

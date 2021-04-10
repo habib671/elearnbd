@@ -8,23 +8,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- links for the navbar that i've made  -->
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../../style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../styleloggedin.css">
+    <link rel="stylesheet" href="../../../../styleloggedin.css">
     <!-- End of the links for the navbar that i've made  -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet"> -->
-    <link rel="stylesheet" href="../../../fonts/icomoon/style.css">
-    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../css/jquery-ui.css">
-    <link rel="stylesheet" href="../../../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="../../../css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="../../../fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="../../../css/aos.css">
-    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../../fonts/icomoon/style.css">
+    <link rel="stylesheet" href="../../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../../../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../../../css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../../../../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../../../../fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="../../../../css/aos.css">
+    <link rel="stylesheet" href="../../../../css/style.css">
 
   </head>
 
@@ -42,19 +42,19 @@
     </div>
 
 
-    <header class="site-navbar  js-sticky-header site-navbar-target" role="banner">
+    <!-- <header class="site-navbar  js-sticky-header site-navbar-target" role="banner">
       <div class="topnav d-flex justify-content-center" id="myTopnav">
       <a href="../../../loggedin.php" class="active">Home</a>
           <?php
-          if (isset($_SESSION['userId'])){
-            echo '<a href="../../../loggedin/profile.php" name="profile">Profile</a>
-                  <a href="../../../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-          }
+          // if (isset($_SESSION['userId'])){
+          //   echo '<a href="../../../loggedin/profile.php" name="profile">Profile</a>
+          //         <a href="../../../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
+          // }
            ?>
          </div>
       </div>
 
-    </header>
+    </header> -->
 
     <div class="intro-section single-cover" id="home-section">
 
@@ -178,22 +178,22 @@
 
   </div> <!-- .site-wrap -->
 
-  <script src="../../../js/jquery-3.3.1.min.js"></script>
-  <script src="../../../js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="../../../js/jquery-ui.js"></script>
-  <script src="../../../js/popper.min.js"></script>
-  <script src="../../../js/bootstrap.min.js"></script>
-  <script src="../../../js/owl.carousel.min.js"></script>
-  <script src="../../../js/jquery.stellar.min.js"></script>
-  <script src="../../../js/jquery.countdown.min.js"></script>
-  <script src="../../../js/bootstrap-datepicker.min.js"></script>
-  <script src="../../../js/jquery.easing.1.3.js"></script>
-  <script src="../../../js/aos.js"></script>
-  <script src="../../../js/jquery.fancybox.min.js"></script>
-  <script src="../../../js/jquery.sticky.js"></script>
+  <script src="../../../../js/jquery-3.3.1.min.js"></script>
+  <script src="../../../../js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../../../../js/jquery-ui.js"></script>
+  <script src="../../../../js/popper.min.js"></script>
+  <script src="../../../../js/bootstrap.min.js"></script>
+  <script src="../../../../js/owl.carousel.min.js"></script>
+  <script src="../../../../js/jquery.stellar.min.js"></script>
+  <script src="../../../../js/jquery.countdown.min.js"></script>
+  <script src="../../../../js/bootstrap-datepicker.min.js"></script>
+  <script src="../../../../js/jquery.easing.1.3.js"></script>
+  <script src="../../../../js/aos.js"></script>
+  <script src="../../../../js/jquery.fancybox.min.js"></script>
+  <script src="../../../../js/jquery.sticky.js"></script>
 
 
-  <script src="../../../js/main.js"></script>
+  <script src="../../../../js/main.js"></script>
 
   </body>
 </html>

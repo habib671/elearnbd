@@ -13,16 +13,16 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
 </head>
 
  <body>
-   <div class="topnav" id="myTopnav">
+   <!-- <div class="topnav" id="myTopnav">
    <a href="../loggedin.php" class="active">Home</a>
        <?php
-       if (isset($_SESSION['userId'])){
-         echo '<a href="../profile.php" name="profile">Profile</a>
-               <a href="../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-       }
+      //  if (isset($_SESSION['userId'])){
+      //    echo '<a href="../profile.php" name="profile">Profile</a>
+      //          <a href="../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
+      //  }
         ?>
       </div>
- </header>
+ </header> -->
 
  <nav aria-label="breadcrumb">
   <ol class="breadcrumb" style="background:linear-gradient(to right,rgba(100,150,150, 1),rgba(150, 150, 150, 1))">

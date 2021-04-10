@@ -14,16 +14,17 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
 </head>
 
  <body>
+ <!-- <header>
    <div class="topnav" id="myTopnav">
    <a href="../../../loggedin.php" class="active">Home</a>
        <?php
-       if (isset($_SESSION['userId'])){
-         echo '<a href="../../profile.php" name="profile">Profile</a>
-               <a href="../../../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-       }
+      //  if (isset($_SESSION['userId'])){
+      //    echo '<a href="../../profile.php" name="profile">Profile</a>
+      //          <a href="../../../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
+      //  }
         ?>
       </div>
- </header>
+ </header> -->
 
   <?php
       $lien="";
@@ -31,95 +32,48 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
       if (isset($_GET['video'])){
         switch ($_GET['video']) {
           case '1':
-            $lien="https://www.youtube.com/embed/EG4ZoVTSA5I";
-            $nom_vid="Convection versus diffusion";
+            $lien="https://www.youtube.com/embed/xYQFvuTsOAI";
+            $nom_vid="Translator program - Compiler,Interpreter,Assembler";
             break;
           case '2':
-            $lien="https://www.youtube.com/embed/XsujCJ_ko3k";
-            $nom_vid="Determining diffusivity (CT2 Intro)";
+            $lien="https://www.youtube.com/embed/WDX1gLtCIlc";
+            $nom_vid="Introduction to C program";
             break;
           case '3':
-            $lien="https://www.youtube.com/embed/MyTyNTt7MXk";
-            $nom_vid="Estimating diffusivity: Simple model";
+            $lien="https://www.youtube.com/embed/HWyEt9Q_2pE";
+            $nom_vid=" Keyword, Variable, data type";
             break;
           case '4':
-            $lien="https://www.youtube.com/embed/62asq27xHuo";
-            $nom_vid="Diffusivity: D_AB versus D_BA";
+            $lien="https://www.youtube.com/embed/6y2TkyxlMcw";
+            $nom_vid="Arithmetic Operator";
             break;
           case '5':
-            $lien="https://www.youtube.com/embed/zYBWeQ7fccw";
-            $nom_vid="Approaching advanced diffusivity model";
+            $lien="https://www.youtube.com/embed/6dxhmo1vQIw";
+            $nom_vid="Fahrenheit to Centigrade C program";
             break;
           case '6':
-            $lien="https://www.youtube.com/embed/MmktPnoSADY";
-            $nom_vid="Estimating diffusivity, advanced model";
+            $lien="https://www.youtube.com/embed/3Ovy79Gszvc";
+            $nom_vid="Conditional control statement - If,else syntax & Flowchart";
             break;
           case '7':
-            $lien="https://www.youtube.com/embed/X8CBF5VDcF8";
-            $nom_vid="Reading logarithmic diagrams (with high accuracy)";
+            $lien="https://www.youtube.com/embed/U_h--1GeMRc";
+            $nom_vid="দুইটি সংখ্যার মধ্যে বৃহত্তম সংখ্যা নির্ণয়ের জন্য C program";
             break;
           case '8':
-            $lien="https://www.youtube.com/embed/rJ126ainfo0";
-            $nom_vid="Estimating diffusivity: Contribution method";
+            $lien="https://www.youtube.com/embed/W4TBEgB9PeI";
+            $nom_vid="vowel/consonant তা নির্ণয়ের জন্য C program";
             break;
           case '9':
-            $lien="https://www.youtube.com/embed/OADY7u2inZQ";
-            $nom_vid="Diffusion in liquids";
+            $lien="https://www.youtube.com/embed/Yny-iLKFJII";
+            $nom_vid="switch | Calculator";
             break;
           case '10':
-            $lien="https://www.youtube.com/embed/HA3RrWW8uGQ";
-            $nom_vid="Convection AND diffusion";
+            $lien="https://www.youtube.com/embed/2kuf1VrxotM";
+            $nom_vid=" Loop | for, while, do while loop";
             break;
-          case '11':
-            $lien="https://www.youtube.com/embed/0HhQhj6HvSk";
-            $nom_vid="Equimolar counter diffusion";
-            break;
-          case '12':
-            $lien="https://www.youtube.com/embed/VXIwAkjYMLM";
-            $nom_vid="Diffusion through stagnant component";
-            break;
-          case '13':
-            $lien="https://www.youtube.com/embed/YjME83us5r8";
-            $nom_vid="Diffusivity versus Mass transfer coefficients";
-            break;
-          case '14':
-            $lien="https://www.youtube.com/embed/ydTo0SFTm2A";
-            $nom_vid="Two Film Theory";
-            break;
-          case '15':
-            $lien="https://www.youtube.com/embed/N0ZRNf7xgvM";
-            $nom_vid="Two Film Theory example + Quick summary";
-            break;
-          case '16':
-            $lien="https://www.youtube.com/embed/kKsxZy2mAeM";
-            $nom_vid="Overall Mass Transfer Coefficient";
-            break;
-          case '17':
-            $lien="https://www.youtube.com/embed/whN-XepwXgg";
-            $nom_vid="Penetration theory";
-            break;
-          case '18':
-            $lien="https://www.youtube.com/embed/FDfWyeqkKkU";
-            $nom_vid="Boundary Layer Theory";
-            break;
-          case '19':
-            $lien="https://www.youtube.com/embed/7YlQ_4jL_gs";
-            $nom_vid="Reynolds analogy and Chilton Colburn analogy";
-            break;
-          case '20':
-            $lien="https://www.youtube.com/embed/28BvVAiLXck";
-            $nom_vid="Mass transfer in 3D";
-            break;
-          case '21':
-            $lien="https://www.youtube.com/embed/xOOn4u1EJrA";
-            $nom_vid="Non-stationary mass transfer and Swedish meat balls";
-            break;
-          case '22':
-            $lien="https://www.youtube.com/embed/oSGrIQTPqlw";
-            $nom_vid="Introduction to COMSOL Multiphysics";
+         
             break;
           default:
-            # code...
             break;
         }
       }
