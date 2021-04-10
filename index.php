@@ -194,47 +194,19 @@
 
           <div class="owl-carousel col-12 nonloop-block-14">
 
-            <div class="course bg-white h-100 align-self-stretch">
-              <figure class="m-0">
-                <img src="images/img1.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 3 week</div>
-                <h3><a href="#">English</a></h3>
-                <p>Learn English in order to pass IELTS exam. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
-              </div>
-            </div>
+
+
+            
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <img src="images/img2.jpg" alt="Image" class="img-fluid">
+                <img src="https://media-exp1.licdn.com/dms/image/C5603AQFolooHyTsi4g/profile-displayphoto-shrink_800_800/0/1608560422202?e=1623283200&v=beta&t=_jtYh77Ds9qpRdFicZtvB5oHkMZQ7Ff87boLRoMHWyg" alt="Image" class="img-fluid" style="height:215px;">
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
-                <div class="meta"><span class="icon-clock-o"></span>20 Lessons / 4 week</div>
-                <h3><a href="#">Introduction to Chemical Engineering</a></h3>
-                <p>Discover the world of chemical engineering </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span> 2,100 students</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 9</div>
-              </div>
-            </div>
-
-            <div class="course bg-white h-100 align-self-stretch">
-              <figure class="m-0">
-                <img src="images/img4.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">Arabic</a></h3>
-                <p>Learn the basics of the arabic language . </p>
+                <span class="course-price">$10</span>
+                <div class="meta"><span class="icon-clock-o"></span>1 Lessons / 10 week</div>
+                <h3><a href="loggedin/computer_science/programming/c-programming/description_lund.php">C programming with Anisul</a></h3>
+                <p>Learn the basics of the C programming with Anisul Islam. </p>
               </div>
               <div class="d-flex border-top stats">
                 <div class="py-3 px-4"><span class="icon-users"></span> 3,193 students</div>
@@ -246,12 +218,12 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <img src="images/img_4.jpg" alt="Image" class="img-fluid">
+                <img src="loggedin/img5.png" alt="Image" class="img-fluid" style="height:215px;">
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <span class="course-price">$0</span>
                 <div class="meta"><span class="icon-clock-o"></span>3 Lessons / 9 week</div>
-                <h3><a href="#">C++</a></h3>
+                <h3><a href="loggedin/computer_science/c++/description_learninglad.php">C++</a></h3>
                 <p>Learn the most famous programming language. </p>
               </div>
               <div class="d-flex border-top stats">
@@ -262,12 +234,12 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <img src="images/img_5.jpg" alt="Image" class="img-fluid">
+                <img src="images/img_5.jpg" alt="Image" class="img-fluid" style="height:215px;">
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$0</span>
+                <span class="course-price">$10</span>
                 <div class="meta"><span class="icon-clock-o"></span>2 Lessons / 5 week</div>
-                <h3><a href="#">JAVA</a></h3>
+                <h3><a href="loggedin/computer_science/java/description_learninglad.php">JAVA</a></h3>
                 <p>java is a must learn versatile language. </p>
               </div>
               <div class="d-flex border-top stats">
@@ -278,12 +250,12 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <img src="images/img_6.jpg" alt="Image" class="img-fluid">
+                <img src="images/img_6.jpg" alt="Image" class="img-fluid" style="height:215px;">
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <span class="course-price">$0</span>
                 <div class="meta"><span class="icon-clock-o"></span>5 Lessons / 7 week</div>
-                <h3><a href="#">Python</a></h3>
+                <h3><a href="loggedin/computer_science/python/description_telusko.php">Python</a></h3>
                 <p>Begin your journey in the world of AI. </p>
               </div>
               <div class="d-flex border-top stats">

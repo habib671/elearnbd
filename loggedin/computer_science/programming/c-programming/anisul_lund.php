@@ -27,8 +27,8 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
  </header> -->
 
  <nav aria-label="breadcrumb">
-  <ol class="breadcrumb d-flex justify-content-center" style="background:linear-gradient(to right,rgba(100,150,150, 1),rgba(150, 150, 150, 1))">
-    <li class="breadcrumb-item" ><a href="../../../loggedin.php" style="color:white;font-size:bold;">Home</a></li>
+  <ol class="breadcrumb" style="background:linear-gradient(to right,rgba(100,150,150, 1),rgba(150, 150, 150, 1))">
+    <li class="breadcrumb-item" ><a href="../../../../loggedin.php" style="color:white;font-size:bold;">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page" style="color:white;">C programming with Anisul Islam</li>
 
   </ol>
