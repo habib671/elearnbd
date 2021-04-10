@@ -50,9 +50,8 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
-        <a href="actualvideocontent_formationvideo.php?video=1">&#10170  ০২.০১. অধ্যায় ২ : ভেক্টর - Vector and scalar quantities (ভেক্টর এবং স্কেলার রাশি)</a><br>
+      <a href="actualvideocontent_formationvideo.php?video=1">&#10170  ০২.০১. অধ্যায় ২ : ভেক্টর - Vector and scalar quantities (ভেক্টর এবং স্কেলার রাশি)</a><br>
         <a href="actualvideocontent_formationvideo.php?video=2">&#10170  ০২.০২. অধ্যায় ২ : ভেক্টর - ভেক্টর রাশি নির্দেশনা এবং তল ভেক্টর</a><br>
-
       </div>
     </div>
   </div>
@@ -67,44 +66,27 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        <a href="actualvideocontent_formationvideo.php?video=4">&#10170 ০৩.০১. অধ্যায় ৩ : গতি - দূরত্ব ও সরণ (Distance and Displacement)</a><br>
+      <a href="actualvideocontent_formationvideo.php?video=4">&#10170 ০৩.০১. অধ্যায় ৩ : গতি - দূরত্ব ও সরণ (Distance and Displacement)</a><br>
         <a href="actualvideocontent_formationvideo.php?video=7">&#10170  ০৩.০২. অধ্যায় ৩ : গতি - দ্রুতি ও বেগ (Speed and Velocity)</a><br>
-      
       </div>
     </div>
   </div>
   <!-- Détails chapitre 3 -->
   <div class="card">
-    <div class="card-header" id="headingThree">
+    <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Chapitre 3 : Programmation procédurale
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        অধ্যায় ৫ : কাজ, ক্ষমতা ও শক্তি - কাজ (Work)
         </button>
       </h2>
     </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        <a href="actualvideocontent_formationvideo.php?video=6">&#10170  Les fonctions</a><br>
-        </div>
-    </div>
-  </div>
-  <!-- Détails chapitre 4 -->
-  <div class="card">
-    <div class="card-header" id="headingFour">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-           Chapitre 4 : Programmation Orienté Objet
-        </button>
-      </h2>
-    </div>
-    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-      <div class="card-body">
-        <a href="actualvideocontent_formationvideo.php?video=10">&#10170  Programmation Objet</a><br>
-        <a href="actualvideocontent_formationvideo.php?video=11">&#10170  Constructeurs et Attributs</a><br>
-        <a href="actualvideocontent_formationvideo.php?video=12">&#10170  Méthodes et Accesseurs</a><br>
+      <a href="actualvideocontent_formationvideo.php?video=4">&#10170 ০৫.০১. অধ্যায় ৫ : কাজ, ক্ষমতা ও শক্তি - কাজ (Work)</a><br>
+        <a href="actualvideocontent_formationvideo.php?video=7">&#10170  ০৫.০২. অধ্যায় ৫ : কাজ, ক্ষমতা ও শক্তি - বলের দ্বারা কাজ বা ধনাত্মক কাজ (Positive Work)</a><br>
       </div>
     </div>
-  </div>
+ 
 </div>
 
 <?php require "../../../footer.php" ?>
