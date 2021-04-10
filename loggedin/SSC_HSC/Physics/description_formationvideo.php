@@ -64,7 +64,7 @@
             <div class="col-12">
               <div class="row justify-content-center align-items-center text-center">
                 <div class="col-lg-6">
-                  <h1 data-aos="fade-up" data-aos-delay="0" class="text-white">C++ - Cours</h1>
+                  <h1 data-aos="fade-up" data-aos-delay="0" class="text-white">Physics</h1>
                   <p data-aos="fade-up" data-aos-delay="100" class="text-white">4 Lessons / 2 Week &bullet; 200 students &bullet; <a href="#" class="text-white">2 comments</a></p>
                 </div>
               </div>
