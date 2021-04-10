@@ -44,7 +44,11 @@
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#courses-section" class="nav-link">Courses</a></li>
                 <li><a href="#programs-section" class="nav-link">Programs</a></li>
-                <li><a href="#teachers-section" class="nav-link">Teachers</a></li>
+                <li><a href="#teachers-section" class="nav-link">Teachers</a></li><br>
+                <li><a href="loggedin/all_courses.php" class="nav-link">All Courses</a></li>
+                <li><a href="loggedin/blog" class="nav-link">Blogs</a></li>
+                <li><a href="loggedin/resource" class="nav-link">Resourses</a></li>
+                <li><a href="loggedin/quiz" class="nav-link">Quizzes</a></li>
               </ul>
             </nav>
           </div>
@@ -52,7 +56,7 @@
           <div class="ml-auto w-25">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                <li class="cta"><a href="#contact-section" class="nav-link"><span>Contact Us</span></a></li>
+                <li class="cta"><a href="#contact-section" class="nav-link"><span>Become a instructor</span></a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
@@ -386,45 +390,58 @@
 
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
-            <h2 class="section-title">Our Teachers</h2>
+            <h2 class="section-title">Our Team</h2>
             <p class="mb-5">The best we promise the best we are !</p>
           </div>
         </div>
 
-        <div class="row">
-
+        <div class="row d-flex justify-content-center">
           <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
             <div class="teacher text-center">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <img src="images/habib.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
-                <h3 class="text-black">Aouini Oussama</h3>
-                <p class="position">WEB Teacher</p>
-                <p>Made over 100 websites with years of experience, taught over 500 students.</p>
+                <h3 class="text-black">Md Ahsan Habib</h3>
+                <p class="position">ID: 181-15-1907</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="teacher text-center">
+              <img src="https://scontent.fdac38-1.fna.fbcdn.net/v/t1.6435-9/53031575_1061585554032991_5399796101878382592_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeFz6YggLIGY_RaaPyJp6m-sxXTOEYGauT_FdM4RgZq5P-oXv67ofEy49YlmwAo9VOg6sCoKy6d9UAPxBT8aqZd5&_nc_ohc=wdTCmq-VnFgAX9eEvKH&_nc_ht=scontent.fdac38-1.fna&oh=3c645744c96ff8fa1173bcf3f1ad400f&oe=60986A46" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Md Anisuzzaman Shayak</h3>
+                <p class="position">ID: 181-15-1988</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="teacher text-center">
+              <img src="https://scontent.fdac38-1.fna.fbcdn.net/v/t1.6435-9/124449737_1023914228127210_8767509000799212704_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=174925&_nc_eui2=AeE8csNgCAwfLQs-p_cTz70N1GCCQ-FXBSjUYIJD4VcFKNbNPydidPLEDmEGCICwc5a_6LtMWTahyooq0fPyVKsD&_nc_ohc=bHw430g-8VYAX-ukeBK&_nc_ht=scontent.fdac38-1.fna&oh=5c5b248e240bdc82d8fe2e3030f46cf5&oe=6098519E" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Nozrof Shahriar Shuvo</h3>
+                <p class="position">ID: 181-15-1987</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="teacher text-center">
+              <img src="https://scontent.fdac38-1.fna.fbcdn.net/v/t1.6435-9/34459189_1752350661512017_4293572857557942272_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=174925&_nc_eui2=AeHf3FTmZI7ZhGQKe4270D1slgxLFjeBrMGWDEsWN4GswYdXlfqqGWmUga3u8TV4-54qlbG2vleUH1fEcWWqtvn-&_nc_ohc=QwHnEEVB6ToAX8Rb5Ks&_nc_ht=scontent.fdac38-1.fna&oh=b63c0e68ef569f77f53cf4c64f099c85&oe=6097806F" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Mahdi Saifullah Srizan</h3>
+                <p class="position">ID: 181-15-1869</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="teacher text-center">
+              <img src="https://scontent.fdac38-1.fna.fbcdn.net/v/t1.6435-9/53006832_361178554728034_1029912876745228288_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeH9RrqlNZk7VMIMyc3GwyP96Nl5IxGPSHjo2XkjEY9IeDE3_2mdWDvw3R6USAbtfr_d4oB4LzC-LYh8me_3U3Tq&_nc_ohc=k1pKWh_DJysAX9r5kja&_nc_ht=scontent.fdac38-1.fna&oh=43b5ad13b05d82ae6dff59af5c21db68&oe=6095AC75" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Abdul Hadi Himel</h3>
+                <p class="position">ID: 181-15-2080</p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="teacher text-center">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-              <div class="py-2">
-                <h3 class="text-black">Abidi Nidhal</h3>
-                <p class="position">AI Teacher</p>
-                <p>Over 20 years of experience Worked at NASA and done so many projects .</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="teacher text-center">
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-              <div class="py-2">
-                <h3 class="text-black">Zemmali Mohamed</h3>
-                <p class="position">IOT Teacher</p>
-                <p>Leading expert in the domain of IOT, taught many students over the years.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -433,10 +450,21 @@
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-8 text-center testimony">
-            <img src="images/person_4.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
-            <h3 class="mb-4">Najem Märzouky</h3>
+          <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title text-light">Our Teacher</h2>
+          </div>
+        </div>
+            <img src="https://elearn.daffodilvarsity.edu.bd/pluginfile.php/961238/mod_label/intro/3-01-03.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
+            <h3 class="mb-4">Mushfiqur Rahman (MUR)</h3>
             <blockquote>
-              <p>&ldquo; I was struggling with my studies but it all changed when I learned about LAcademy, I'm now a senior software engineer making a 6 figure salary per year.This website is a real game changer. &rdquo;</p>
+              <p>&ldquo; I’ve completed SSC (Secondary School Certificate) from Motijheel Model High School in 2010 and HSC (Higher Secondary Certificate) from Govt Ashek Mahmud College, Jamalpur in 2012 both scored with GPA ?.00 out of 5.00.
+
+I am a graduate of Computer Science & Engineering from Daffodil International University in May, 2018 with CGPA ?.00 out of 4.0 and Masters' in Computer Science from Jahangirnagar University in 2019. As part of my bachelor and masters' study I’ve worked in several projects (e.g. routing & switching simulations, IoT related projects, ERP & management applications, web-based social support app. etc.) and thesis works.
+
+I had joined as a Research Associate in the Department of Computer Science & Engineering at Daffodil International University after completing my graduation in June 2018.
+
+Currently, I’m working as a full-time Lecturer in the Department of Computer Science & Engineering at Daffodil International University since September 2019. &rdquo;</p>
             </blockquote>
           </div>
         </div>
