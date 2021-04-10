@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="pdf_style.css">
 </head>
 
-</html>
 
-<table>
+<body>
+  <div class="habib">
+<table  >
  <thead>
   <th>Question Name</th>
   <th>Download Link</th>
  
   </thead>
- </table>
+
 <?php 
 	include "config.php";
    if (isset($_GET['tablename'])){
@@ -31,7 +32,6 @@
 
 
 
- <table>
   <tr>
       
       <td>
@@ -48,10 +48,12 @@
       
   </tr>
  
-  </table>
+ 
   <?php
 }
-
+echo "</table>";
 }
 ?>
-		
+</div>
+</body>
+		</html>
