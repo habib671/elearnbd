@@ -22,23 +22,23 @@
 		</div>
 
 		<div class="card bg-light mb-3" style="max-width: 18rem;">
-	  		<div class="card-header">Language</div>
+	  		<div class="card-header">SSC & HSC</div>
 	  		<div class="card-body">
 	    		<ul style="list-style-type:circle">
-	    			<li><a class="card-text" href="loggedin/language_arabic.php">Arabic</a><br></li>
-	    			<li><a class="card-text" href="loggedin/language_english.php">English </a><br></li>
-	    			<li><a class="card-text" href="loggedin/language_french.php">French</a></li>
+	    			<li><a class="card-text" href="loggedin/ssc_hsc_physics.php">Physics</a><br></li>
+	    			<li><a class="card-text" href="#">Chemistry </a><br></li>
+	    			<li><a class="card-text" href="#">Math</a></li>
 	    		</ul>
 	  		</div>
 		</div>
 
 		<div class="card bg-light mb-3" style="max-width: 18rem;">
-	  		<div class="card-header">Engineering</div>
+	  		<div class="card-header">Job Preparation</div>
 	  		<div class="card-body">
 	    		<ul style="list-style-type:circle">
-	    			<li><a class="card-text" href="loggedin/engineering_software.php">Software Engineering</a><br></li>
-	    			<li><a class="card-text" href="loggedin/engineering_aerospace.php">Aerospace Engineering </a><br></li>
-	    			<li><a class="card-text" href="loggedin/engineering_chemical.php">Chemical Engineering</a></li>
+	    			<li><a class="card-text" href="#">বাংলা সাহিত্য</a><br></li>
+	    			<li><a class="card-text" href="#">আন্তর্জাতিক বিষয়াবলি</a><br></li>
+	    			<li><a class="card-text" href="#">English Literature</a></li>
 	    		</ul>
 	  		</div>
 		</div>
