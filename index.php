@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>LAcademy</title>
+    <title>E-LearnBD</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
@@ -36,7 +36,7 @@
 
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-25"><a href="index.php">LAcademy</a></div>
+          <div class="site-logo mr-auto w-25"><a href="index.php">E-LearnBD</a></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -53,7 +53,7 @@
           <div class="ml-auto w-25">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                <li class="cta"><a href="#contact-section" class="nav-link"><span>Become a instructor</span></a></li>
+                <li class="cta"><a href="instructor.html" class="nav-link"><span>Become a instructor</span></a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
@@ -65,7 +65,7 @@
 
     <div class="intro-section" id="home-section">
 
-      <div class="slide-1" style="background-image: url('images/hero_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="slide-1" style="background-image: url('http://images.freecreatives.com/wp-content/uploads/2016/04/Study-Quotes-Wallpaper-1.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
@@ -454,7 +454,7 @@
       </div>
     </div>
 
-    <div class="site-section bg-image overlay" style="background-image: url('images/hero_1.jpg');">
+    <div class="site-section bg-image overlay" style="background-image: url('http://images.freecreatives.com/wp-content/uploads/2016/04/Study-Quotes-Wallpaper-1.jpg');">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-8 text-center testimony">
@@ -466,13 +466,7 @@
             <img src="https://elearn.daffodilvarsity.edu.bd/pluginfile.php/961238/mod_label/intro/3-01-03.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
             <h3 class="mb-4">Mushfiqur Rahman (MUR)</h3>
             <blockquote>
-              <p>&ldquo; I’ve completed SSC (Secondary School Certificate) from Motijheel Model High School in 2010 and HSC (Higher Secondary Certificate) from Govt Ashek Mahmud College, Jamalpur in 2012 both scored with GPA ?.00 out of 5.00.
-
-I am a graduate of Computer Science & Engineering from Daffodil International University in May, 2018 with CGPA ?.00 out of 4.0 and Masters' in Computer Science from Jahangirnagar University in 2019. As part of my bachelor and masters' study I’ve worked in several projects (e.g. routing & switching simulations, IoT related projects, ERP & management applications, web-based social support app. etc.) and thesis works.
-
-I had joined as a Research Associate in the Department of Computer Science & Engineering at Daffodil International University after completing my graduation in June 2018.
-
-Currently, I’m working as a full-time Lecturer in the Department of Computer Science & Engineering at Daffodil International University since September 2019. &rdquo;</p>
+              <p>Lecturer<br>Department of Computer Science & Engineering<br>Faculty of Science & Information Technology<br>Daffodil International University<br>Permanent Campus, Ashulia, Dhaka</p>
             </blockquote>
           </div>
         </div>
@@ -652,7 +646,7 @@ Currently, I’m working as a full-time Lecturer in the Department of Computer S
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3>About LAcademy</h3>
+            <h3>About E-LearnBD</h3>
             <p>An E-Learning platform rich of resources, We make learning easy and simple for Everyone.</p>
           </div>
 
@@ -669,10 +663,9 @@ Currently, I’m working as a full-time Lecturer in the Department of Computer S
 
           <div class="col-md-4">
             <h3>Subscribe</h3>
-            <p>Keep yourself up to date and receive all kind of news about LAcademy.</p>
-            <form action="https://mailchi.mp/064deb47eeaa/lacdemy" target="_blank" class="footer-subscribe">
+            <p>Keep yourself up to date and receive all kind of news about E-LearnBD.</p>
+            <form action="https://www.youtube.com/channel/UCzlG6DSC6Ks34ah5ohcejSg" target="_blank" class="footer-subscribe">
               <div class="d-flex mb-5">
-
                 <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
               </div>
             </form>
