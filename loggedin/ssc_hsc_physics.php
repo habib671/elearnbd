@@ -1,57 +1,35 @@
 <?php
-  session_start();
- ?>
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../style.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="stylesheet" href="../styleloggedin.css">
-<title>Learn Academy</title>
-</head>
+require "../header.php";
+?>
 
- <body>
-   <div class="topnav" id="myTopnav">
-   <a href="../loggedin.php" class="active">Home</a>
-       <?php
-       if (isset($_SESSION['userId'])){
-         echo '<a href="../profile.php" name="profile">Profile</a>
-               <a href="../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-       }
-        ?>
-      </div>
- </header>
-
- <nav aria-label="breadcrumb">
-  <ol class="breadcrumb" style="background:linear-gradient(to right,rgba(100,150,150, 1),rgba(150, 150, 150, 1))">
-    <li class="breadcrumb-item" ><a href="../loggedin.php" style="color:white;">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><a href="computer_science.php" style="color:white;font-size:bold;">Computer Science</a></li>
-    <li class="breadcrumb-item active" aria-current="page" style="color:white;">Java</li>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../loggedin.php">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><a href="computer_science.php">Computer Science</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Java</li>
 
   </ol>
 </nav>
 
 <div class="java-container">
 
-  <div class="card" >
-      <img src="img1.png" class="card-img-top" alt="..." >
-      <div class="card-body">
-        <p class="card-text" >Physics</p>
+  <div class="card">
+    <img src="img1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Physics</p>
 
-        <p class="card-text details" >Language : Bangla</p>
-        <p class="card-text details" >Tutor : 10 Min School Liard</p>
+      <p class="card-text details">Language : Bangla</p>
+      <p class="card-text details">Tutor : 10 Min School Liard</p>
 
-      </div>
-      <a href="SSC_HSC/Physics/description_formationvideo.php" class="btn btn-primary" target="_blank">View Description !</a><br>
-      <a href="SSC_HSC/Physics/ssc_hsc_physics_formationvideo.php" class="btn btn-primary">View Course !</a>
+    </div>
+    <a href="SSC_HSC/Physics/description_formationvideo.php" class="btn btn-primary" target="_blank">View Description !</a><br>
+    <a href="SSC_HSC/Physics/ssc_hsc_physics_formationvideo.php" class="btn btn-primary">View Course !</a>
   </div>
 
 
 
 </div>
 
- <?php
-    require "../footer.php";
-  ?>
+<?php
+require "../footer.php";
+?>

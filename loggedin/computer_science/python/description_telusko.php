@@ -1,34 +1,34 @@
 <?php
-  session_start();
- ?>
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>LAcademy </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- links for the navbar that i've made  -->
-    <link rel="stylesheet" href="../../../style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../styleloggedin.css">
-    <!-- End of the links for the navbar that i've made  -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet"> -->
-    <link rel="stylesheet" href="../../../fonts/icomoon/style.css">
-    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../css/jquery-ui.css">
-    <link rel="stylesheet" href="../../../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="../../../css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="../../../fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="../../../css/aos.css">
-    <link rel="stylesheet" href="../../../css/style.css">
 
-  </head>
+<head>
+  <title>LAcademy </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- links for the navbar that i've made  -->
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../styleloggedin.css">
+  <!-- End of the links for the navbar that i've made  -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet"> -->
+  <link rel="stylesheet" href="../../../fonts/icomoon/style.css">
+  <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../css/jquery-ui.css">
+  <link rel="stylesheet" href="../../../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../../../css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="../../../fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="../../../css/aos.css">
+  <link rel="stylesheet" href="../../../css/style.css">
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
   <div class="site-wrap">
 
@@ -41,20 +41,6 @@
       <div class="site-mobile-menu-body"></div>
     </div>
 
-
-    <header class="site-navbar  js-sticky-header site-navbar-target" role="banner">
-      <div class="topnav" id="myTopnav">
-      <a href="../../../loggedin.php" class="active">Home</a>
-          <?php
-          if (isset($_SESSION['userId'])){
-            echo '<a href="../../../loggedin/profile.php" name="profile">Profile</a>
-                  <a href="../../../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-          }
-           ?>
-         </div>
-      </div>
-
-    </header>
 
     <div class="intro-section single-cover" id="home-section">
 
@@ -84,7 +70,7 @@
               <h3 class="text-black">Course Description</h3>
               <p>Python Tutorial, Easy Python tutorial for beginner, learn Python Programming,
                 learn python programming with example and syntax. Download python, install python,
-                using python IDE, IDLE, Pycharm IDE, notepad,  getting started with python, variables,
+                using python IDE, IDLE, Pycharm IDE, notepad, getting started with python, variables,
                 functions, object, list in python, set in python, help in python, data types, operators,
                 math function, run, debug python code, conditional statement, array, matrix in python,
                 python by navin reddy</p>
@@ -133,17 +119,17 @@
                 <img src="../../../images/telusko.jpg" alt="Image" class="w-25 rounded-circle mb-4">
                 <h3 class="h5 text-black mb-4">telusko</h3>
                 <p>Hey Aliens!!!
-                    I make free programming tutorials from beginner to advanced level
-                    That includes Java for beginner, Advanced Java, Python, Android, Blockchain,
-                    JavaScript, Kotlin, Scala, Spring Framework, Hibernate, C programming, Data Structures,
-                    Networking, REST API, and many more.
-                    Sometimes I make videos on motivation and take sessions with Tech industry experts.
-                    There is something for everyone here.
-                    If my videos have helped you in any way do support Telusko to make more content.
-                    For Donation
-                    PayPal: https://goo.gl/ko8KrB
-                    Patreon: https://goo.gl/rYLSCs
-                    Instamojo: https://goo.gl/YSaZKT</p>
+                  I make free programming tutorials from beginner to advanced level
+                  That includes Java for beginner, Advanced Java, Python, Android, Blockchain,
+                  JavaScript, Kotlin, Scala, Spring Framework, Hibernate, C programming, Data Structures,
+                  Networking, REST API, and many more.
+                  Sometimes I make videos on motivation and take sessions with Tech industry experts.
+                  There is something for everyone here.
+                  If my videos have helped you in any way do support Telusko to make more content.
+                  For Donation
+                  PayPal: https://goo.gl/ko8KrB
+                  Patreon: https://goo.gl/rYLSCs
+                  Instamojo: https://goo.gl/YSaZKT</p>
               </div>
             </div>
           </div>
@@ -176,11 +162,13 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
-            <p>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      </p>
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
             </div>
           </div>
 
@@ -209,5 +197,6 @@
 
   <script src="../../../js/main.js"></script>
 
-  </body>
+</body>
+
 </html>

@@ -1,34 +1,34 @@
 <?php
-  session_start();
- ?>
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>LAcademy </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- links for the navbar that i've made  -->
-    <link rel="stylesheet" href="../../../../style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../../styleloggedin.css">
-    <!-- End of the links for the navbar that i've made  -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet"> -->
-    <link rel="stylesheet" href="../../../../fonts/icomoon/style.css">
-    <link rel="stylesheet" href="../../../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../../css/jquery-ui.css">
-    <link rel="stylesheet" href="../../../../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../../css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="../../../../css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="../../../../fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="../../../../css/aos.css">
-    <link rel="stylesheet" href="../../../../css/style.css">
 
-  </head>
+<head>
+  <title>LAcademy </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- links for the navbar that i've made  -->
+  <link rel="stylesheet" href="../../../../style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../../styleloggedin.css">
+  <!-- End of the links for the navbar that i've made  -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet"> -->
+  <link rel="stylesheet" href="../../../../fonts/icomoon/style.css">
+  <link rel="stylesheet" href="../../../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../css/jquery-ui.css">
+  <link rel="stylesheet" href="../../../../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../../../../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../../css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../../../../css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="../../../../fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="../../../../css/aos.css">
+  <link rel="stylesheet" href="../../../../css/style.css">
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
   <div class="site-wrap">
 
@@ -40,21 +40,6 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-
-
-    <!-- <header class="site-navbar  js-sticky-header site-navbar-target" role="banner">
-      <div class="topnav d-flex justify-content-center" id="myTopnav">
-      <a href="../../../loggedin.php" class="active">Home</a>
-          <?php
-          // if (isset($_SESSION['userId'])){
-          //   echo '<a href="../../../loggedin/profile.php" name="profile">Profile</a>
-          //         <a href="../../../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-          // }
-           ?>
-         </div>
-      </div>
-
-    </header> -->
 
     <div class="intro-section single-cover" id="home-section">
 
@@ -127,7 +112,7 @@
               <div class="mb-4 text-center">
                 <img src="https://media-exp1.licdn.com/dms/image/C5603AQFolooHyTsi4g/profile-displayphoto-shrink_800_800/0/1608560422202?e=1623283200&v=beta&t=_jtYh77Ds9qpRdFicZtvB5oHkMZQ7Ff87boLRoMHWyg" alt="Image" class="w-25 rounded-circle mb-4">
                 <h3 class="h5 text-black mb-4">Department of CSE, Lead University</h3>
-                  <p>On this channel i gather podcasts/videos that my students can
+                <p>On this channel i gather podcasts/videos that my students can
                   benefit from in my courses, but also some videos about my research. Some podcast/videos are
                   in English.</p>
               </div>
@@ -162,11 +147,13 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
-            <p>
-        
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | ElearnBd
-     
-      </p>
+              <p>
+
+                Copyright &copy;<script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | ElearnBd
+
+              </p>
             </div>
           </div>
 
@@ -195,5 +182,6 @@
 
   <script src="../../../../js/main.js"></script>
 
-  </body>
+</body>
+
 </html>

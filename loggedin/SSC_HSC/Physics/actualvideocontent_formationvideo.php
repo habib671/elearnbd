@@ -1,99 +1,89 @@
 <?php
-  session_start();
- ?>
+session_start();
+?>
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="stylesheet" href="../java/accordionstyle.css">
-<link rel="stylesheet" href="../../../style.css">
-<title>Learn Academy</title>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../java/accordionstyle.css">
+  <link rel="stylesheet" href="../../../style.css">
+  <title>Learn Academy</title>
 </head>
 
- <body>
-   <div class="topnav" id="myTopnav">
-   <a href="../../../loggedin.php" class="active">Home</a>
-       <?php
-       if (isset($_SESSION['userId'])){
-         echo '<a href="../../profile.php" name="profile">Profile</a>
-               <a href="../../../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-       }
-        ?>
-      </div>
- </header>
+<body>
 
   <?php
-      $lien="";
-      $nom_vid="";
-      $chapitre="";
-      if (isset($_GET['video'])){
-        switch ($_GET['video']) {
-          case '1':
-            $lien="https://www.youtube.com/embed/5faBF5MgTcA";
-            $nom_vid="০২.০১. অধ্যায় ২ : ভেক্টর - Vector and scalar quantities (ভেক্টর এবং স্কেলার রাশি)";
-            $chapitre="1";
-            break;
-          case '2':
-            $lien="https://www.youtube.com/embed/GxgiEDfAEAw";
-            $nom_vid="০২.০২. অধ্যায় ২ : ভেক্টর - ভেক্টর রাশি নির্দেশনা এবং তল ভেক্টর";
-            $chapitre="1";
-            break;
-          case '3':
-            $lien="https://www.youtube.com/embed/sHzt_gc6MC8";
-            $nom_vid="Affichage En Console";
-            $chapitre="1";
-            break;
-          case '4':
-            $lien="https://www.youtube.com/embed/AKXFTQp1pOY";
-            $nom_vid="Saisie Utilisateur";
-            $chapitre="1";
-            break;
-          case '5':
-            $lien="https://www.youtube.com/embed/QD9aJCNyPiA";
-            $nom_vid="Variables et Constantes";
-            $chapitre="1";
-            break;
-            case '6':
-              $lien="https://www.youtube.com/embed/X7uw6E883tI";
-              $nom_vid="Variables et Constantes";
-              $chapitre="1";
-              break;
-          default:
-         
-            break;
-        }
-      }
-   ?>
+  $lien = "";
+  $nom_vid = "";
+  $chapitre = "";
+  if (isset($_GET['video'])) {
+    switch ($_GET['video']) {
+      case '1':
+        $lien = "https://www.youtube.com/embed/5faBF5MgTcA";
+        $nom_vid = "০২.০১. অধ্যায় ২ : ভেক্টর - Vector and scalar quantities (ভেক্টর এবং স্কেলার রাশি)";
+        $chapitre = "1";
+        break;
+      case '2':
+        $lien = "https://www.youtube.com/embed/GxgiEDfAEAw";
+        $nom_vid = "০২.০২. অধ্যায় ২ : ভেক্টর - ভেক্টর রাশি নির্দেশনা এবং তল ভেক্টর";
+        $chapitre = "1";
+        break;
+      case '3':
+        $lien = "https://www.youtube.com/embed/sHzt_gc6MC8";
+        $nom_vid = "Affichage En Console";
+        $chapitre = "1";
+        break;
+      case '4':
+        $lien = "https://www.youtube.com/embed/AKXFTQp1pOY";
+        $nom_vid = "Saisie Utilisateur";
+        $chapitre = "1";
+        break;
+      case '5':
+        $lien = "https://www.youtube.com/embed/QD9aJCNyPiA";
+        $nom_vid = "Variables et Constantes";
+        $chapitre = "1";
+        break;
+      case '6':
+        $lien = "https://www.youtube.com/embed/X7uw6E883tI";
+        $nom_vid = "Variables et Constantes";
+        $chapitre = "1";
+        break;
+      default:
 
- <nav aria-label="breadcrumb">
-  <ol class="breadcrumb" style="background:linear-gradient(to right,rgba(100,150,150, 1),rgba(150, 150, 150, 1))">
-    <li class="breadcrumb-item" ><a href="../../../loggedin.php" style="color:white;font-size:bold;">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><a href="../../computer_science.php" style="color:white;">Computer Science</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><a href="../../computer_science_c++.php" style="color:white;">C++</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><a href="computer_science_c++_formationvideo.php" style="color:white;">Cours C++</a></li>
-    <li class="breadcrumb-item active" aria-current="page" style="color:white;"><?php echo $nom_vid ?></li>
-  </ol>
-</nav>
+        break;
+    }
+  }
+  ?>
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb" style="background:linear-gradient(to right,rgba(100,150,150, 1),rgba(150, 150, 150, 1))">
+      <li class="breadcrumb-item"><a href="../../../loggedin.php" style="color:white;font-size:bold;">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="../../computer_science.php" style="color:white;">Computer Science</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="../../computer_science_c++.php" style="color:white;">C++</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="computer_science_c++_formationvideo.php" style="color:white;">Cours C++</a></li>
+      <li class="breadcrumb-item active" aria-current="page" style="color:white;"><?php echo $nom_vid ?></li>
+    </ol>
+  </nav>
 
 
-<div class="video_accordian_container">
+  <div class="video_accordian_container">
     <div class="row">
-        <div class="col-md-8">
-          <!-- The actual video content -->
-          <div class="iframe-container">
-            <iframe width="950" height="550" src="<?php echo isset($lien)?$lien:''; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+      <div class="col-md-8">
+        <!-- The actual video content -->
+        <div class="iframe-container">
+          <iframe width="950" height="550" src="<?php echo isset($lien) ? $lien : ''; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-md-4">
-          <!-- The lessons within the same chapter  -->
-          <?php
-            if (isset($chapitre)){
-              switch ($chapitre) {
-                case '1':
-                  echo '<div class="card">
+      </div>
+      <div class="col-md-4">
+        <!-- The lessons within the same chapter  -->
+        <?php
+        if (isset($chapitre)) {
+          switch ($chapitre) {
+            case '1':
+              echo '<div class="card">
                     <div class="card-header" id="headingOne">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -111,9 +101,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
-                case '2':
-                  echo '<!-- Détails chapitre 2 -->
+              break;
+            case '2':
+              echo '<!-- Détails chapitre 2 -->
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
@@ -131,9 +121,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
-                case '3':
-                  echo '<!-- Détails chapitre 3 -->
+              break;
+            case '3':
+              echo '<!-- Détails chapitre 3 -->
                   <div class="card">
                     <div class="card-header" id="headingThree">
                       <h2 class="mb-0">
@@ -148,9 +138,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                         </div>
                     </div>
                   </div>';
-                  break;
-                case '4':
-                  echo '<!-- Détails chapitre 4 -->
+              break;
+            case '4':
+              echo '<!-- Détails chapitre 4 -->
                   <div class="card">
                     <div class="card-header" id="headingFour">
                       <h2 class="mb-0">
@@ -167,13 +157,12 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
-
-              }
-            }
-           ?>
-        </div>
+              break;
+          }
+        }
+        ?>
+      </div>
     </div>
-</div>
+  </div>
 
-<?php require "../../../footer.php" ?>
+  <?php require "../../../footer.php" ?>

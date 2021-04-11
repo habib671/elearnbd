@@ -1,34 +1,34 @@
 <?php
-  session_start();
- ?>
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>LAcademy </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- links for the navbar that i've made  -->
-    <link rel="stylesheet" href="../../../style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../styleloggedin.css">
-    <!-- End of the links for the navbar that i've made  -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet"> -->
-    <link rel="stylesheet" href="../../../fonts/icomoon/style.css">
-    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../css/jquery-ui.css">
-    <link rel="stylesheet" href="../../../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="../../../css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="../../../fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="../../../css/aos.css">
-    <link rel="stylesheet" href="../../../css/style.css">
 
-  </head>
+<head>
+  <title>LAcademy </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- links for the navbar that i've made  -->
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../styleloggedin.css">
+  <!-- End of the links for the navbar that i've made  -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet"> -->
+  <link rel="stylesheet" href="../../../fonts/icomoon/style.css">
+  <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../css/jquery-ui.css">
+  <link rel="stylesheet" href="../../../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../../../css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="../../../fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="../../../css/aos.css">
+  <link rel="stylesheet" href="../../../css/style.css">
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
   <div class="site-wrap">
 
@@ -42,19 +42,6 @@
     </div>
 
 
-    <header class="site-navbar  js-sticky-header site-navbar-target" role="banner">
-      <div class="topnav" id="myTopnav">
-      <a href="../../../loggedin.php" class="active">Home</a>
-          <?php
-          if (isset($_SESSION['userId'])){
-            echo '<a href="../../../loggedin/profile.php" name="profile">Profile</a>
-                  <a href="../../../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-          }
-           ?>
-         </div>
-      </div>
-
-    </header>
 
     <div class="intro-section single-cover" id="home-section">
 
@@ -82,12 +69,12 @@
 
             <div class="mb-5">
               <h3 class="text-black">Course Description</h3>
-              <p>In this beginners c++  video tutorials series, you will learn the cpp programming  language
+              <p>In this beginners c++ video tutorials series, you will learn the cpp programming language
                 from core(beginner) level in an easy way. No previous knowledge of computer programming is
                 required. It will teach you all the key concepts in the step by step tutorial.
-                Source code is available at  http://www.LearningLad.com
+                Source code is available at http://www.LearningLad.com
                 First this video series will teach you the Introduction to c++ history features and why study
-                cpp language then explains the concepts like Compilers Linkers  Archivers  IDEs Tool sets How c++ works and then teaches you to Download and Install Code Blocks IDE to get started with coding.
+                cpp language then explains the concepts like Compilers Linkers Archivers IDEs Tool sets How c++ works and then teaches you to Download and Install Code Blocks IDE to get started with coding.
                 After having essential software's installed you will learn actual coding. It begins with the
                 Hello world program and then explains Constants Variables Data types and Keywords and then
                 Creating and using Variables then Printing Text and Numbers to the Screen using cout, Receiving
@@ -182,11 +169,13 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
-            <p>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      </p>
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
             </div>
           </div>
 
@@ -215,5 +204,6 @@
 
   <script src="../../../js/main.js"></script>
 
-  </body>
+</body>
+
 </html>

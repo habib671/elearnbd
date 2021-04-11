@@ -1,235 +1,225 @@
 <?php
-  session_start();
- ?>
+session_start();
+?>
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="stylesheet" href="../java/accordionstyle.css">
-<link rel="stylesheet" href="../../../style.css">
-<title>Learn Academy</title>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../java/accordionstyle.css">
+  <link rel="stylesheet" href="../../../style.css">
+  <title>Learn Academy</title>
 </head>
 
- <body>
-   <div class="topnav" id="myTopnav">
-   <a href="../../../loggedin.php" class="active">Home</a>
-       <?php
-       if (isset($_SESSION['userId'])){
-         echo '<a href="../../profile.php" name="profile">Profile</a>
-               <a href="../../../includes/logout.inc.php" name="logout-submit">SIGN OUT</a>';
-       }
-        ?>
-      </div>
- </header>
+<body>
 
   <?php
-      $lien="";
-      $nom_vid="";
-      $chapitre="";
-      if (isset($_GET['video'])){
-        switch ($_GET['video']) {
-          case '1':
-            $lien="https://www.youtube.com/embed/rzqjYKyciUM";
-            $nom_vid="Why Python مقدمة الدور";
-            $chapitre="1";
-            break;
-          case '2':
-            $lien="https://www.youtube.com/embed/PA84ErO2VNE";
-            $nom_vid="Install python تنصيب بايثو";
-            $chapitre="1";
-            break;
-          case '3':
-            $lien="https://www.youtube.com/embed/cZaYtGpubmU";
-            $nom_vid="First python app اول تطبيق بايثو";
-            $chapitre="1";
-            break;
-          case '4':
-            $lien="https://www.youtube.com/embed/7PcQMU7c5wk";
-            $nom_vid="Python is Objects";
-            $chapitre="1";
-            break;
-          case '5':
-            $lien="https://www.youtube.com/embed/Wi0ITFUrHws";
-            $nom_vid="Mutable and Immutable Object";
-            $chapitre="1";
-            break;
-          case '7':
-            $lien="https://www.youtube.com/embed/Jagp-EkxMa4";
-            $nom_vid="Python Comments التعليقا";
-            $chapitre="1";
-            break;
-          case '6':/* Breakpoint  */
-            $lien="https://www.youtube.com/embed/yRErsFM5M6g";
-            $nom_vid="Python variables المتغيرا";
-            $chapitre="2";
-            break;
-          case '8':
-            $lien="https://www.youtube.com/embed/gQ8_7WB5sdQ";
-            $nom_vid="Python lists and tuples السلاسل";
-            $chapitre="2";
-            break;
-          case '9':
-            $lien="https://www.youtube.com/embed/Q5cQBCCjVzk";
-            $nom_vid="Python Dictionary القامو";
-            $chapitre="2";
-            break;
-          case '10':
-            $lien="https://www.youtube.com/embed/MQSvfb242FU";
-            $nom_vid="Python Object id  المعر";
-            $chapitre="2";
-            break;
-          case '29':
-            $lien="https://www.youtube.com/embed/X5u9sj0HE6c";
-            $nom_vid="Python|| Strings  السلاسل النصي";
-            $chapitre="2";
-            break;
-          case '12':
-            $lien="https://www.youtube.com/embed/C_G2VEedFUg";
-            $nom_vid="Python Math العمليات الرياضي";
-            $chapitre="3";
-            break;
-          case '13':
-            $lien="https://www.youtube.com/embed/2Xh8qFV_mlE";
-            $nom_vid="Python Bitwise";
-            $chapitre="3";
-            break;
-          case '18':
-            $lien="https://www.youtube.com/embed/LTLUZBKxW4E";
-            $nom_vid="Python Debug تتبع التنفي";
-            $chapitre="3";
-            break;
-          case '26':
-            $lien="https://www.youtube.com/embed/JlUWmZ_wkjI";
-            $nom_vid="Python|| Functions الدوا";
-            $chapitre="3";
-            break;
-          case '22':
-            $lien="https://www.youtube.com/embed/kmAXIfHzOJg";
-            $nom_vid="Python|| While Loop العبارات التكراري";
-            $chapitre="4";
-            break;
-          case '23':
-            $lien="https://www.youtube.com/embed/HNtKUmKYkmE";
-            $nom_vid="Python|| iterator For Loop العبارات التكرارية";
-            $chapitre="4";
-            break;
-          case '24':
-            $lien="https://www.youtube.com/embed/5vZMCL6NpCE";
-            $nom_vid="Python|| Nested Loop العبارات التكرارية متداخلة";
-            $chapitre="4";
-            break;
-          case '25':
-            $lien="https://www.youtube.com/embed/JkHQHe4TLG0";
-            $nom_vid="Python|| Loop Control تحكم بالعبارات التكرارية";
-            $chapitre="4";
-            break;
-          case '11':
-            $lien="https://www.youtube.com/embed/5ZEE_LacKHs";
-            $nom_vid="Python Logic بوابات منطقي";
-            $chapitre="5";
-            break;
-          case '14':
-            $lien="https://www.youtube.com/embed/xVLNeYwLvYA";
-            $nom_vid="Python Boolean operations";
-            $chapitre="5";
-            break;
-          case '15':
-            $lien="https://www.youtube.com/embed/B5g1w2CLk4Y";
-            $nom_vid="Python operation priorities";
-            $chapitre="5";
-            break;
-          case '19':
-            $lien="https://www.youtube.com/embed/AYBjvRtvJa4";
-            $nom_vid="Python|| conditional 'IF' العبارات الشرطية";
-            $chapitre="5";
-            break;
-          case '20':
-            $lien="https://www.youtube.com/embed/Phx-HX4LDSc";
-            $nom_vid="Python|| conditional 'IF- Else' العبارات الشرطية";
-            $chapitre="5";
-            break;
-          case '21':
-            $lien="https://www.youtube.com/embed/EMooVzOtg0A";
-            $nom_vid="Python|| conditional Nested IF العبارات الشرطية";
-            $chapitre="5";
-            break;
-          case '30':
-            $lien="https://www.youtube.com/embed/nNQ_kKOO32A";
-            $nom_vid="Python OOP|| Basic Class";
-            $chapitre="6";
-            break;
-          case '31':
-            $lien="https://www.youtube.com/embed/A-UnxpVQCe0";
-            $nom_vid="Python OOP|| Class Constructor";
-            $chapitre="6";
-            break;
-          case '32':
-            $lien="https://www.youtube.com/embed/2VERE2m-B10";
-            $nom_vid="Python OOP|| kwargs";
-            $chapitre="6";
-            break;
-          case '33':
-            $lien="https://www.youtube.com/embed/lDXwxyuG450";
-            $nom_vid="Python OOP|| Class Inheritance الوراث";
-            $chapitre="6";
-            break;
-          case '34':
-            $lien="https://www.youtube.com/embed/YQ4w3DIMgm4";
-            $nom_vid="Python OOP|| method Overriding";
-            $chapitre="6";
-            break;
-          case '28':/* Breakpoint  */
-            $lien="https://www.youtube.com/embed/ylGj_LUzSwE";
-            $nom_vid="Python|| Exceptions اقتناص الاخطا";
-            $chapitre="7";
-            break;
-          case '37':
-            $lien="https://www.youtube.com/embed/yzV2WzMiaWI";
-            $nom_vid="Python|| Database Sqlite3 قواعد البيانات";
-            $chapitre="8";
-            break;
-          case '38':
-            $lien="https://www.youtube.com/embed/RFYDKT1-2m0";
-            $nom_vid="Python|| Database Sqlite3 commit";
-            $chapitre="8";
-            break;
+  $lien = "";
+  $nom_vid = "";
+  $chapitre = "";
+  if (isset($_GET['video'])) {
+    switch ($_GET['video']) {
+      case '1':
+        $lien = "https://www.youtube.com/embed/rzqjYKyciUM";
+        $nom_vid = "Why Python مقدمة الدور";
+        $chapitre = "1";
+        break;
+      case '2':
+        $lien = "https://www.youtube.com/embed/PA84ErO2VNE";
+        $nom_vid = "Install python تنصيب بايثو";
+        $chapitre = "1";
+        break;
+      case '3':
+        $lien = "https://www.youtube.com/embed/cZaYtGpubmU";
+        $nom_vid = "First python app اول تطبيق بايثو";
+        $chapitre = "1";
+        break;
+      case '4':
+        $lien = "https://www.youtube.com/embed/7PcQMU7c5wk";
+        $nom_vid = "Python is Objects";
+        $chapitre = "1";
+        break;
+      case '5':
+        $lien = "https://www.youtube.com/embed/Wi0ITFUrHws";
+        $nom_vid = "Mutable and Immutable Object";
+        $chapitre = "1";
+        break;
+      case '7':
+        $lien = "https://www.youtube.com/embed/Jagp-EkxMa4";
+        $nom_vid = "Python Comments التعليقا";
+        $chapitre = "1";
+        break;
+      case '6':/* Breakpoint  */
+        $lien = "https://www.youtube.com/embed/yRErsFM5M6g";
+        $nom_vid = "Python variables المتغيرا";
+        $chapitre = "2";
+        break;
+      case '8':
+        $lien = "https://www.youtube.com/embed/gQ8_7WB5sdQ";
+        $nom_vid = "Python lists and tuples السلاسل";
+        $chapitre = "2";
+        break;
+      case '9':
+        $lien = "https://www.youtube.com/embed/Q5cQBCCjVzk";
+        $nom_vid = "Python Dictionary القامو";
+        $chapitre = "2";
+        break;
+      case '10':
+        $lien = "https://www.youtube.com/embed/MQSvfb242FU";
+        $nom_vid = "Python Object id  المعر";
+        $chapitre = "2";
+        break;
+      case '29':
+        $lien = "https://www.youtube.com/embed/X5u9sj0HE6c";
+        $nom_vid = "Python|| Strings  السلاسل النصي";
+        $chapitre = "2";
+        break;
+      case '12':
+        $lien = "https://www.youtube.com/embed/C_G2VEedFUg";
+        $nom_vid = "Python Math العمليات الرياضي";
+        $chapitre = "3";
+        break;
+      case '13':
+        $lien = "https://www.youtube.com/embed/2Xh8qFV_mlE";
+        $nom_vid = "Python Bitwise";
+        $chapitre = "3";
+        break;
+      case '18':
+        $lien = "https://www.youtube.com/embed/LTLUZBKxW4E";
+        $nom_vid = "Python Debug تتبع التنفي";
+        $chapitre = "3";
+        break;
+      case '26':
+        $lien = "https://www.youtube.com/embed/JlUWmZ_wkjI";
+        $nom_vid = "Python|| Functions الدوا";
+        $chapitre = "3";
+        break;
+      case '22':
+        $lien = "https://www.youtube.com/embed/kmAXIfHzOJg";
+        $nom_vid = "Python|| While Loop العبارات التكراري";
+        $chapitre = "4";
+        break;
+      case '23':
+        $lien = "https://www.youtube.com/embed/HNtKUmKYkmE";
+        $nom_vid = "Python|| iterator For Loop العبارات التكرارية";
+        $chapitre = "4";
+        break;
+      case '24':
+        $lien = "https://www.youtube.com/embed/5vZMCL6NpCE";
+        $nom_vid = "Python|| Nested Loop العبارات التكرارية متداخلة";
+        $chapitre = "4";
+        break;
+      case '25':
+        $lien = "https://www.youtube.com/embed/JkHQHe4TLG0";
+        $nom_vid = "Python|| Loop Control تحكم بالعبارات التكرارية";
+        $chapitre = "4";
+        break;
+      case '11':
+        $lien = "https://www.youtube.com/embed/5ZEE_LacKHs";
+        $nom_vid = "Python Logic بوابات منطقي";
+        $chapitre = "5";
+        break;
+      case '14':
+        $lien = "https://www.youtube.com/embed/xVLNeYwLvYA";
+        $nom_vid = "Python Boolean operations";
+        $chapitre = "5";
+        break;
+      case '15':
+        $lien = "https://www.youtube.com/embed/B5g1w2CLk4Y";
+        $nom_vid = "Python operation priorities";
+        $chapitre = "5";
+        break;
+      case '19':
+        $lien = "https://www.youtube.com/embed/AYBjvRtvJa4";
+        $nom_vid = "Python|| conditional 'IF' العبارات الشرطية";
+        $chapitre = "5";
+        break;
+      case '20':
+        $lien = "https://www.youtube.com/embed/Phx-HX4LDSc";
+        $nom_vid = "Python|| conditional 'IF- Else' العبارات الشرطية";
+        $chapitre = "5";
+        break;
+      case '21':
+        $lien = "https://www.youtube.com/embed/EMooVzOtg0A";
+        $nom_vid = "Python|| conditional Nested IF العبارات الشرطية";
+        $chapitre = "5";
+        break;
+      case '30':
+        $lien = "https://www.youtube.com/embed/nNQ_kKOO32A";
+        $nom_vid = "Python OOP|| Basic Class";
+        $chapitre = "6";
+        break;
+      case '31':
+        $lien = "https://www.youtube.com/embed/A-UnxpVQCe0";
+        $nom_vid = "Python OOP|| Class Constructor";
+        $chapitre = "6";
+        break;
+      case '32':
+        $lien = "https://www.youtube.com/embed/2VERE2m-B10";
+        $nom_vid = "Python OOP|| kwargs";
+        $chapitre = "6";
+        break;
+      case '33':
+        $lien = "https://www.youtube.com/embed/lDXwxyuG450";
+        $nom_vid = "Python OOP|| Class Inheritance الوراث";
+        $chapitre = "6";
+        break;
+      case '34':
+        $lien = "https://www.youtube.com/embed/YQ4w3DIMgm4";
+        $nom_vid = "Python OOP|| method Overriding";
+        $chapitre = "6";
+        break;
+      case '28':/* Breakpoint  */
+        $lien = "https://www.youtube.com/embed/ylGj_LUzSwE";
+        $nom_vid = "Python|| Exceptions اقتناص الاخطا";
+        $chapitre = "7";
+        break;
+      case '37':
+        $lien = "https://www.youtube.com/embed/yzV2WzMiaWI";
+        $nom_vid = "Python|| Database Sqlite3 قواعد البيانات";
+        $chapitre = "8";
+        break;
+      case '38':
+        $lien = "https://www.youtube.com/embed/RFYDKT1-2m0";
+        $nom_vid = "Python|| Database Sqlite3 commit";
+        $chapitre = "8";
+        break;
 
-          default:
-            # code...
-            break;
-        }
-      }
-   ?>
+      default:
+        # code...
+        break;
+    }
+  }
+  ?>
 
- <nav aria-label="breadcrumb">
-  <ol class="breadcrumb" style="background:linear-gradient(to right,rgba(100,150,150, 1),rgba(150, 150, 150, 1))">
-    <li class="breadcrumb-item" ><a href="../../../loggedin.php" style="color:white;font-size:bold;">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><a href="../../computer_science.php" style="color:white;">Computer Science</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><a href="../../computer_science_python.php" style="color:white;">Python</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><a href="computer_science_python_thenewbaghdad.php" style="color:white;">Python Tutorials Arabic|| دورة برمجة بايثون</a></li>
-    <li class="breadcrumb-item active" aria-current="page" style="color:white;"><?php echo $nom_vid ?></li>
-  </ol>
-</nav>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb" style="background:linear-gradient(to right,rgba(100,150,150, 1),rgba(150, 150, 150, 1))">
+      <li class="breadcrumb-item"><a href="../../../loggedin.php" style="color:white;font-size:bold;">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="../../computer_science.php" style="color:white;">Computer Science</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="../../computer_science_python.php" style="color:white;">Python</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="computer_science_python_thenewbaghdad.php" style="color:white;">Python Tutorials Arabic|| دورة برمجة بايثون</a></li>
+      <li class="breadcrumb-item active" aria-current="page" style="color:white;"><?php echo $nom_vid ?></li>
+    </ol>
+  </nav>
 
 
-<div class="video_accordian_container">
+  <div class="video_accordian_container">
     <div class="row">
-        <div class="col-md-8">
-          <!-- The actual video content -->
-          <div class="iframe-container">
-            <iframe width="950" height="550" src="<?php echo isset($lien)?$lien:''; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+      <div class="col-md-8">
+        <!-- The actual video content -->
+        <div class="iframe-container">
+          <iframe width="950" height="550" src="<?php echo isset($lien) ? $lien : ''; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-md-4">
-          <!-- The lessons within the same chapter  -->
-          <?php
-            if (isset($chapitre)){
-              switch ($chapitre) {
-                case '1':
-                  echo '<!-- Détails chapitre 1 -->
+      </div>
+      <div class="col-md-4">
+        <!-- The lessons within the same chapter  -->
+        <?php
+        if (isset($chapitre)) {
+          switch ($chapitre) {
+            case '1':
+              echo '<!-- Détails chapitre 1 -->
                   <div class="card">
                     <div class="card-header" id="headingOne">
                       <h2 class="mb-0">
@@ -250,9 +240,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
-                case '2':
-                  echo '<!-- Détails chapitre 2 -->
+              break;
+            case '2':
+              echo '<!-- Détails chapitre 2 -->
                   <div class="card">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
@@ -271,9 +261,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
-                case '3':
-                  echo '<!-- Détails chapitre 3 -->
+              break;
+            case '3':
+              echo '<!-- Détails chapitre 3 -->
                   <div class="card">
                     <div class="card-header" id="headingThree">
                       <h2 class="mb-0">
@@ -291,9 +281,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                         </div>
                     </div>
                   </div>';
-                  break;
-                case '4':
-                  echo '<!-- Détails chapitre 4 -->
+              break;
+            case '4':
+              echo '<!-- Détails chapitre 4 -->
                   <div class="card">
                     <div class="card-header" id="headingFour">
                       <h2 class="mb-0">
@@ -311,9 +301,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
-                case '5':
-                  echo '<!-- Détails chapitre 5 -->
+              break;
+            case '5':
+              echo '<!-- Détails chapitre 5 -->
                   <div class="card">
                     <div class="card-header" id="headingFive">
                       <h2 class="mb-0">
@@ -333,9 +323,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
-                case '6':
-                  echo '<!-- Détails chapitre 6 -->
+              break;
+            case '6':
+              echo '<!-- Détails chapitre 6 -->
                   <div class="card">
                     <div class="card-header" id="headingSix">
                       <h2 class="mb-0">
@@ -355,9 +345,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
-                case '7':
-                  echo '<!-- Détails chapitre 7 -->
+              break;
+            case '7':
+              echo '<!-- Détails chapitre 7 -->
                   <div class="card">
                     <div class="card-header" id="headingSeven">
                       <h2 class="mb-0">
@@ -372,9 +362,9 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
-                case '8':
-                  echo '<!-- Détails chapitre 8 -->
+              break;
+            case '8':
+              echo '<!-- Détails chapitre 8 -->
                   <div class="card">
                     <div class="card-header" id="headingEight">
                       <h2 class="mb-0">
@@ -390,16 +380,16 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
                       </div>
                     </div>
                   </div>';
-                  break;
+              break;
 
 
-                default:
-                  // code...
-                  break;
-              }
-            }
-           ?>
-        </div>
+            default:
+              // code...
+              break;
+          }
+        }
+        ?>
+      </div>
     </div>
-</div>
-<?php require "../../../footer.php" ?>
+  </div>
+  <?php require "../../../footer.php" ?>
