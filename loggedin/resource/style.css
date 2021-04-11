@@ -5,7 +5,6 @@ img {
 
 div [class^="col-"] {
   padding: 25px;
-  /* padding-right: 25px; */
 }
 .card {
   transition: 0.5s;
@@ -16,16 +15,7 @@ div [class^="col-"] {
   transition: 1s;
   cursor: pointer;
 }
-/* .card-title i {
-  font-size: 15px;
-  transition: 1s;
-  cursor: pointer;
-  color: #ffa710;
-} */
-/* .card-title i:hover {
-  transform: scale(1.25) rotate(100deg);
-  color: #18d4ca;
-} */
+
 .card:hover {
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
